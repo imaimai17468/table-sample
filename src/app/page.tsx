@@ -1,9 +1,9 @@
-import { SampleTable } from "@/components/SampleTable";
+import { TanStackTable } from "@/components/TanStackTable";
 
 export default function Home() {
   return (
     <div className="p-4">
-      <SampleTable />
+      <TanStackTable />
     </div>
   );
 }

@@ -78,7 +78,7 @@ const columns = [
   }),
 ];
 
-export const SampleTable = () => {
+export const TanStackTable = () => {
   const [data, setData] = useState<Person[]>(defaultData);
 
   const table = useReactTable({
