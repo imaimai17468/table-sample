@@ -1,9 +1,9 @@
-import { SampleTable } from "@/components/SampleTable"
+import { SampleTable } from "@/components/SampleTable";
 
 export default function Home() {
   return (
-    <div>
+    <div className="p-4">
       <SampleTable />
     </div>
-  )
+  );
 }
