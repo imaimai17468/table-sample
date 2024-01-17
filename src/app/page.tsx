@@ -1,3 +1,4 @@
+import { SampleTable } from "@/components/SampleTable";
 import { ShadcnTable } from "@/components/ShadcnTable";
 import { TanStackTable } from "@/components/TanStackTable";
 import { Separator } from "@/components/ui/separator";
@@ -13,6 +14,11 @@ export default function Home() {
       <div className="flex flex-col gap-2">
         <h1 className="text-2xl font-bold">Shadcn/ui Table</h1>
         <ShadcnTable />
+      </div>
+      <Separator />
+      <div className="flex flex-col gap-2">
+        <h1 className="text-2xl font-bold">TanStack + Shadcn/ui Table</h1>
+        <SampleTable />
       </div>
     </div>
   );
