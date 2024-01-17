@@ -1,0 +1,1 @@
+export { ShadcnTable } from "./ShadcnTable";
